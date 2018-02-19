@@ -1,0 +1,1936 @@
+05:30:04.935 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+05:30:04.941 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+05:30:04.942 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+05:30:04.942 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+05:30:36.002 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+05:30:36.009 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+05:30:36.009 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+05:30:36.009 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+05:30:56.414 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+05:30:56.423 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+05:30:56.429 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+05:30:56.429 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+05:31:49.919 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+05:31:49.926 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+05:31:49.927 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+05:31:49.927 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+05:40:20.746 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+05:40:20.748 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+05:40:20.749 [main] INFO  utils.resources.BaseClass - Get property value of browser
+05:40:20.749 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+05:40:20.749 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+05:40:20.750 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+05:40:23.303 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+05:40:23.303 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+05:40:24.445 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+05:40:24.465 [main] INFO  utils.resources.BaseClass - Returning driver object
+05:40:24.466 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+05:40:24.466 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+05:40:24.502 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+05:40:24.505 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+05:40:24.506 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+05:40:24.506 [main] INFO  utils.resources.BaseClass - Input file path:D:\data.xlsx
+05:40:24.506 [main] INFO  utils.resources.BaseClass - Create Workbook object
+05:40:24.909 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+05:40:24.910 [main] INFO  utils.resources.BaseClass - Get no. of rows
+05:40:24.910 [main] INFO  utils.resources.BaseClass - Row Count:3
+05:40:24.914 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:3
+05:40:24.914 [main] INFO  utils.resources.BaseClass - No. of entries in input file:3
+05:40:24.914 [main] INFO  utils.resources.BaseClass - Returning result
+05:40:24.921 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+05:40:24.923 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+05:40:24.923 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+05:40:24.923 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+05:40:24.924 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+05:40:24.924 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+05:40:28.548 [main] INFO  utils.resources.BaseClass - Send search term:Sony tv to the website
+05:40:28.549 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+05:40:29.004 [main] INFO  utils.resources.BaseClass - Click on search button
+05:40:33.549 [main] INFO  utils.resources.BaseClass - Split the search term
+05:40:33.549 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+05:40:33.630 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+05:40:33.660 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+05:40:33.660 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:40:33.691 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:40:33.691 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:40:33.724 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:40:33.724 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:40:33.757 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:40:33.757 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:40:33.789 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:40:33.789 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:40:33.827 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:40:33.827 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+05:40:35.471 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+05:40:35.738 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+05:40:35.738 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:31
+05:40:35.738 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+05:40:35.947 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+05:40:35.963 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+05:40:37.490 [main] INFO  utils.resources.BaseClass - Get Item condition text
+05:40:37.662 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+05:40:37.663 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+05:40:37.663 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+05:40:42.736 [main] INFO  utils.resources.BaseClass - Get price value of the product
+05:40:42.765 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+05:40:42.765 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+05:40:42.765 [main] INFO  utils.resources.BaseClass - Price format check successful
+05:40:42.766 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+05:40:42.793 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+05:40:45.051 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+05:40:50.062 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+05:40:50.105 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+05:40:50.156 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+05:40:50.181 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+05:40:50.206 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+05:40:50.233 [main] INFO  utils.resources.BaseClass - Click proceed to checkout button
+05:40:54.603 [main] INFO  utils.resources.BaseClass - Sign in to review cart
+05:41:07.351 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+05:41:07.351 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+05:41:07.351 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+05:41:07.351 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+05:41:07.351 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+05:41:07.351 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+05:41:09.085 [main] INFO  utils.resources.BaseClass - Send search term:Samsung tv to the website
+05:41:09.085 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+05:41:09.809 [main] INFO  utils.resources.BaseClass - Click on search button
+05:41:11.825 [main] INFO  utils.resources.BaseClass - Split the search term
+05:41:11.826 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+05:41:12.044 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+05:41:12.309 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+05:41:12.309 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:41:12.413 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:41:12.414 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:41:12.552 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:41:12.552 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:41:12.607 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:41:12.608 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:41:12.642 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:41:12.642 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+05:41:14.375 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+05:41:14.685 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+05:41:14.685 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:3
+05:41:14.685 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+05:41:14.840 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+05:41:14.851 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+05:42:52.230 [main] INFO  utils.resources.BaseClass - Get Item condition text
+05:43:00.271 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+05:43:00.271 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+05:43:00.271 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+05:43:00.271 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+05:43:00.271 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+05:43:00.271 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+05:43:41.257 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+05:43:41.260 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+05:43:41.264 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+05:43:41.264 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+05:43:41.264 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+05:43:41.264 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+05:43:41.265 [main] INFO  utils.resources.BaseClass - Create Workbook object
+05:43:41.569 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+05:43:41.570 [main] INFO  utils.resources.BaseClass - Get no. of rows
+05:43:41.570 [main] INFO  utils.resources.BaseClass - Row Count:2
+05:43:41.574 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:2
+05:43:41.575 [main] INFO  utils.resources.BaseClass - No. of entries in input file:2
+05:43:41.575 [main] INFO  utils.resources.BaseClass - Returning result
+05:43:41.579 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+05:43:41.579 [main] INFO  utils.resources.BaseClass - Get property value of browser
+05:43:41.580 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+05:43:41.580 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+05:43:41.581 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+05:43:44.138 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+05:43:44.138 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+05:43:45.279 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+05:43:45.286 [main] INFO  utils.resources.BaseClass - Returning driver object
+05:43:45.287 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+05:43:45.308 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+05:43:45.323 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+05:43:45.326 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+05:43:45.330 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+05:43:45.332 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+05:43:45.334 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+05:43:49.349 [main] INFO  utils.resources.BaseClass - Send search term:Sony tv to the website
+05:43:49.349 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+05:43:49.540 [main] INFO  utils.resources.BaseClass - Click on search button
+05:43:51.849 [main] INFO  utils.resources.BaseClass - Split the search term
+05:43:51.849 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+05:43:52.042 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+05:43:52.081 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+05:43:52.081 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:43:52.130 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:43:52.130 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:43:52.201 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:43:52.201 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:43:52.312 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:43:52.312 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:43:52.405 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:43:52.405 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:43:52.521 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:43:52.521 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+05:43:54.296 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+05:43:54.548 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+05:43:54.548 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:16
+05:43:54.548 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+05:43:54.755 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+05:43:54.781 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+05:44:01.020 [main] INFO  utils.resources.BaseClass - Get Item condition text
+05:44:01.093 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+05:44:01.093 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+05:44:01.093 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+05:44:01.141 [main] INFO  utils.resources.BaseClass - Get time Left vallue
+05:44:01.178 [main] INFO  utils.resources.BaseClass - Assert if time left matches format
+05:44:01.179 [main] INFO  utils.resources.BaseClass - Time left matches format
+05:44:01.179 [main] INFO  utils.resources.BaseClass - Get price value of the product
+05:44:01.207 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+05:44:01.207 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+05:44:01.208 [main] INFO  utils.resources.BaseClass - Price format check successful
+05:44:01.208 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+05:44:01.237 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+05:44:04.435 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+05:44:09.529 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+05:44:09.557 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+05:44:09.614 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+05:44:09.651 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+05:44:09.679 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+05:44:09.705 [main] INFO  utils.resources.BaseClass - Click proceed to checkout button
+05:44:13.876 [main] INFO  utils.resources.BaseClass - Sign in to review cart
+05:44:28.438 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+05:44:28.438 [main] INFO  utils.resources.BaseClass - Get property value of browser
+05:44:28.438 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+05:44:28.438 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+05:44:28.438 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+05:44:30.448 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+05:44:30.448 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+05:44:31.665 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+05:44:31.673 [main] INFO  utils.resources.BaseClass - Returning driver object
+05:44:31.674 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+05:44:31.674 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+05:44:31.674 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+05:44:31.675 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+05:44:31.676 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+05:44:31.677 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+05:44:31.678 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+05:44:35.395 [main] INFO  utils.resources.BaseClass - Send search term:Samsung tv to the website
+05:44:35.396 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+05:44:36.062 [main] INFO  utils.resources.BaseClass - Click on search button
+05:44:37.928 [main] INFO  utils.resources.BaseClass - Split the search term
+05:44:37.928 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+05:44:38.145 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+05:44:38.190 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+05:44:38.190 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:44:38.293 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:44:38.293 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:44:38.339 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:44:38.339 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:44:38.410 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:44:38.410 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+05:44:38.444 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+05:44:38.444 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+05:44:41.856 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+05:44:41.963 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+05:44:41.963 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:12
+05:44:41.964 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+05:44:42.000 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+05:44:42.011 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+05:44:44.915 [main] INFO  utils.resources.BaseClass - Get Item condition text
+05:44:45.038 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+05:44:45.038 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+05:44:45.038 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+05:44:50.093 [main] INFO  utils.resources.BaseClass - Get price value of the product
+05:44:50.128 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+05:44:50.128 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+05:44:50.128 [main] INFO  utils.resources.BaseClass - Price format check successful
+05:44:50.129 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+05:44:50.157 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+05:44:54.404 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+05:44:59.462 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+05:44:59.509 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+05:44:59.582 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+05:44:59.620 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+05:44:59.647 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+05:48:02.392 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+05:48:02.395 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+05:48:02.400 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+05:48:02.401 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+05:48:02.401 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+05:48:02.401 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+05:48:02.401 [main] INFO  utils.resources.BaseClass - Create Workbook object
+05:48:02.692 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+05:48:02.693 [main] INFO  utils.resources.BaseClass - Get no. of rows
+05:48:02.693 [main] INFO  utils.resources.BaseClass - Row Count:2
+05:48:02.697 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:2
+05:48:02.697 [main] INFO  utils.resources.BaseClass - No. of entries in input file:2
+05:48:02.697 [main] INFO  utils.resources.BaseClass - Returning result
+05:48:02.705 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+05:48:02.705 [main] INFO  utils.resources.BaseClass - Get property value of browser
+05:48:02.705 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+05:48:02.705 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+05:48:02.706 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+05:48:05.260 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+05:48:05.261 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+05:48:06.400 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+05:48:06.413 [main] INFO  utils.resources.BaseClass - Returning driver object
+05:48:06.414 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+05:49:46.012 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+05:49:46.015 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+05:49:46.020 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+05:49:46.021 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+05:49:46.021 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+05:49:46.021 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+05:49:46.021 [main] INFO  utils.resources.BaseClass - Create Workbook object
+05:49:46.324 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+05:49:46.324 [main] INFO  utils.resources.BaseClass - Get no. of rows
+05:49:46.324 [main] INFO  utils.resources.BaseClass - Row Count:2
+05:49:46.328 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:2
+05:49:46.328 [main] INFO  utils.resources.BaseClass - No. of entries in input file:2
+05:49:46.328 [main] INFO  utils.resources.BaseClass - Returning result
+05:49:46.336 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+05:49:46.336 [main] INFO  utils.resources.BaseClass - Get property value of browser
+05:49:46.336 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+05:49:46.336 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+05:49:46.337 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+05:49:48.963 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+05:49:48.963 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+05:49:50.092 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+05:49:50.104 [main] INFO  utils.resources.BaseClass - Returning driver object
+05:49:50.105 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+05:49:50.135 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+05:49:50.135 [main] INFO  utils.resources.BaseClass - Get property value of browser
+05:49:50.136 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+05:49:50.136 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+05:49:50.136 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+05:49:52.219 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+05:49:52.219 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+05:49:53.343 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+05:49:53.352 [main] INFO  utils.resources.BaseClass - Returning driver object
+05:49:53.352 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+05:53:15.240 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+05:53:15.243 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+05:53:15.248 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+05:53:15.249 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+05:53:15.249 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+05:53:15.249 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+05:53:15.249 [main] INFO  utils.resources.BaseClass - Create Workbook object
+05:53:15.540 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+05:53:15.541 [main] INFO  utils.resources.BaseClass - Get no. of rows
+05:53:15.541 [main] INFO  utils.resources.BaseClass - Row Count:2
+05:53:15.545 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:2
+05:53:15.545 [main] INFO  utils.resources.BaseClass - No. of entries in input file:2
+05:53:15.545 [main] INFO  utils.resources.BaseClass - Returning result
+05:53:15.553 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+05:53:15.553 [main] INFO  utils.resources.BaseClass - Get property value of browser
+05:53:15.553 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+05:53:15.553 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+05:53:15.555 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+05:53:18.107 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+05:53:18.108 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+05:53:19.247 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+05:53:19.259 [main] INFO  utils.resources.BaseClass - Returning driver object
+05:53:19.260 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+05:53:19.293 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+05:53:19.294 [main] INFO  utils.resources.BaseClass - Get property value of browser
+05:53:19.294 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+05:53:19.295 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+05:53:19.295 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+05:53:21.362 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+05:53:21.362 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+05:53:22.488 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+05:53:22.497 [main] INFO  utils.resources.BaseClass - Returning driver object
+05:53:22.498 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+05:54:04.314 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+05:54:04.317 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+05:54:04.323 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+05:54:04.323 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+05:54:04.323 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+05:54:04.323 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+05:54:04.323 [main] INFO  utils.resources.BaseClass - Create Workbook object
+05:54:04.626 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+05:54:04.627 [main] INFO  utils.resources.BaseClass - Get no. of rows
+05:54:04.628 [main] INFO  utils.resources.BaseClass - Row Count:1
+05:54:04.631 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:1
+05:54:04.631 [main] INFO  utils.resources.BaseClass - No. of entries in input file:1
+05:54:04.632 [main] INFO  utils.resources.BaseClass - Returning result
+05:54:04.639 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+05:54:04.639 [main] INFO  utils.resources.BaseClass - Get property value of browser
+05:54:04.639 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+05:54:04.639 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+05:54:04.640 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+05:54:07.197 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+05:54:07.197 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+05:54:08.347 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+05:54:08.360 [main] INFO  utils.resources.BaseClass - Returning driver object
+05:54:08.360 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+05:56:39.775 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+05:56:39.777 [main] INFO  utils.resources.BaseClass - Get property value of browser
+05:56:39.777 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+05:56:39.777 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+05:56:39.778 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+05:56:42.360 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+05:56:42.360 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+05:56:43.512 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+05:56:43.528 [main] INFO  utils.resources.BaseClass - Returning driver object
+05:56:43.528 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+05:56:43.582 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+05:56:43.586 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+05:56:43.587 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+05:56:43.588 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+05:56:43.588 [main] INFO  utils.resources.BaseClass - Create Workbook object
+05:56:43.979 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+05:56:43.979 [main] INFO  utils.resources.BaseClass - Get no. of rows
+05:56:43.979 [main] INFO  utils.resources.BaseClass - Row Count:1
+05:56:43.983 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:1
+05:56:43.983 [main] INFO  utils.resources.BaseClass - No. of entries in input file:1
+05:56:43.983 [main] INFO  utils.resources.BaseClass - Returning result
+05:56:43.991 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+05:56:43.991 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+05:58:40.920 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+05:58:40.922 [main] INFO  utils.resources.BaseClass - Get property value of browser
+05:58:40.922 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+05:58:40.922 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+05:58:40.923 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+05:58:43.518 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+05:58:43.519 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+05:58:44.663 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+05:58:44.675 [main] INFO  utils.resources.BaseClass - Returning driver object
+05:58:44.675 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+05:58:44.731 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+05:58:44.737 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+05:58:44.738 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+05:58:44.739 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+05:58:44.741 [main] INFO  utils.resources.BaseClass - Create Workbook object
+05:58:45.148 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+05:58:45.149 [main] INFO  utils.resources.BaseClass - Get no. of rows
+05:58:45.149 [main] INFO  utils.resources.BaseClass - Row Count:1
+05:58:45.153 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:1
+05:58:45.154 [main] INFO  utils.resources.BaseClass - No. of entries in input file:1
+05:58:45.154 [main] INFO  utils.resources.BaseClass - Returning result
+05:58:45.162 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+05:58:45.162 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+05:59:30.458 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+05:59:30.460 [main] INFO  utils.resources.BaseClass - Get property value of browser
+05:59:30.460 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+05:59:30.460 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+05:59:30.461 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+05:59:33.067 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+05:59:33.067 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+05:59:34.202 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+05:59:34.216 [main] INFO  utils.resources.BaseClass - Returning driver object
+05:59:34.217 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+05:59:34.253 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+05:59:34.256 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+05:59:34.257 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+05:59:34.257 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+05:59:34.257 [main] INFO  utils.resources.BaseClass - Create Workbook object
+05:59:34.663 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+05:59:34.664 [main] INFO  utils.resources.BaseClass - Get no. of rows
+05:59:34.665 [main] INFO  utils.resources.BaseClass - Row Count:1
+05:59:34.668 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:1
+05:59:34.668 [main] INFO  utils.resources.BaseClass - No. of entries in input file:1
+05:59:34.668 [main] INFO  utils.resources.BaseClass - Returning result
+05:59:34.676 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+05:59:34.676 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:00:04.161 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:00:04.163 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:00:04.163 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:00:04.163 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:00:04.164 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:00:06.787 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:00:06.787 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:00:07.921 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:00:07.936 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:00:07.937 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:00:07.988 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:00:07.992 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:00:07.992 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:00:07.993 [main] INFO  utils.resources.BaseClass - Input file path:D:\data.xlsx
+06:00:07.994 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:00:08.407 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:00:08.408 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:00:08.408 [main] INFO  utils.resources.BaseClass - Row Count:3
+06:00:08.412 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:3
+06:00:08.412 [main] INFO  utils.resources.BaseClass - No. of entries in input file:3
+06:00:08.412 [main] INFO  utils.resources.BaseClass - Returning result
+06:00:08.419 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:00:08.419 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:00:08.426 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:00:08.426 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:00:08.429 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:00:08.429 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:02:29.180 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:02:29.182 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:02:29.182 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:02:29.182 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:02:29.183 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:02:31.806 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:02:31.806 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:02:32.937 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:02:32.951 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:02:32.952 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:02:32.999 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:02:33.002 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:02:33.002 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:02:33.002 [main] INFO  utils.resources.BaseClass - Input file path:D:\data.xlsx
+06:02:33.003 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:02:33.398 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:02:33.399 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:02:33.399 [main] INFO  utils.resources.BaseClass - Row Count:3
+06:02:33.403 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:3
+06:02:33.403 [main] INFO  utils.resources.BaseClass - No. of entries in input file:3
+06:02:33.403 [main] INFO  utils.resources.BaseClass - Returning result
+06:02:33.411 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:02:33.411 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:02:33.416 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:02:33.416 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:02:33.418 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:02:33.418 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:05:28.464 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:05:34.653 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:05:37.547 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:05:38.105 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:05:47.130 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:06:01.704 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:06:04.708 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:06:08.615 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:06:16.334 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:06:22.617 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:06:37.620 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:06:37.628 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:06:37.628 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:06:49.332 [main] INFO  utils.resources.BaseClass - Input file path:D:\data.xlsx
+06:06:53.313 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:06:56.402 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:06:57.564 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:06:58.981 [main] INFO  utils.resources.BaseClass - Row Count:3
+06:07:11.764 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:3
+06:07:25.083 [main] INFO  utils.resources.BaseClass - No. of entries in input file:3
+06:07:28.865 [main] INFO  utils.resources.BaseClass - Returning result
+06:07:46.515 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:07:46.516 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:07:46.536 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:07:46.536 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:07:46.549 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:07:46.549 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:12:21.077 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:12:21.080 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:12:21.080 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:12:21.080 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:12:21.080 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:12:21.081 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:12:23.596 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:12:23.597 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:12:24.738 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:12:24.749 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:12:24.749 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:12:24.750 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:12:24.779 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:12:24.783 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:12:24.783 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:12:24.783 [main] INFO  utils.resources.BaseClass - Input file path:D:\data.xlsx
+06:12:24.783 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:12:25.160 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:12:25.161 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:12:25.161 [main] INFO  utils.resources.BaseClass - Row Count:1
+06:12:25.165 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:1
+06:12:25.165 [main] INFO  utils.resources.BaseClass - No. of entries in input file:1
+06:12:25.165 [main] INFO  utils.resources.BaseClass - Returning result
+06:16:24.300 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:16:24.302 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:16:24.302 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:16:24.302 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:16:24.302 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:16:24.303 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:16:26.764 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:16:26.764 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:16:27.891 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:16:27.907 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:16:27.908 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:16:27.908 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:16:27.969 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:16:27.971 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:16:27.972 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:16:27.972 [main] INFO  utils.resources.BaseClass - Input file path:D:\data.xlsx
+06:16:27.972 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:16:28.370 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:16:28.371 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:16:28.371 [main] INFO  utils.resources.BaseClass - Row Count:1
+06:16:28.375 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:1
+06:16:28.375 [main] INFO  utils.resources.BaseClass - No. of entries in input file:1
+06:16:28.376 [main] INFO  utils.resources.BaseClass - Returning result
+06:18:24.730 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:18:24.732 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:18:29.521 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:18:29.521 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:18:29.522 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:18:29.531 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:18:32.162 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:18:32.162 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:18:33.290 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:18:33.297 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:18:33.297 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:18:33.298 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:18:33.328 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:18:33.349 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:18:33.350 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:18:38.950 [main] INFO  utils.resources.BaseClass - Input file path:D:\data.xlsx
+06:18:40.763 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:18:42.977 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:18:42.999 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:18:42.999 [main] INFO  utils.resources.BaseClass - Row Count:1
+06:18:43.019 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:1
+06:18:48.503 [main] INFO  utils.resources.BaseClass - No. of entries in input file:1
+06:18:49.103 [main] INFO  utils.resources.BaseClass - Returning result
+06:20:55.929 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:20:55.931 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:20:55.931 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:20:55.931 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:20:55.932 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:20:55.932 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:20:58.534 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:20:58.535 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:20:59.685 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:20:59.701 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:20:59.702 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:20:59.703 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:20:59.914 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:20:59.914 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:20:59.914 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:20:59.914 [main] INFO  utils.resources.BaseClass - Input file path:D:\data.xlsx
+06:20:59.914 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:21:00.202 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:21:00.203 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:21:00.203 [main] INFO  utils.resources.BaseClass - Row Count:1
+06:21:00.207 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:1
+06:21:00.207 [main] INFO  utils.resources.BaseClass - No. of entries in input file:1
+06:21:00.207 [main] INFO  utils.resources.BaseClass - Returning result
+06:21:00.217 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:21:00.219 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:21:00.222 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:21:00.222 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:21:00.223 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:21:00.223 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:21:03.716 [main] INFO  utils.resources.BaseClass - Send search term:Sony tv to the website
+06:21:03.716 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:21:03.897 [main] INFO  utils.resources.BaseClass - Click on search button
+06:21:08.786 [main] INFO  utils.resources.BaseClass - Split the search term
+06:21:08.786 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:21:08.875 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:21:08.914 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:21:08.914 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:21:08.953 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:21:08.953 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:21:08.984 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:21:08.984 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:21:09.016 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:21:09.016 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:21:09.048 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:21:09.049 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:21:09.091 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:21:09.091 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:21:10.787 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+06:21:11.086 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+06:21:11.086 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:34
+06:21:11.086 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+06:21:11.314 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+06:21:11.335 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+06:21:13.892 [main] INFO  utils.resources.BaseClass - Get Item condition text
+06:21:13.974 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+06:21:13.974 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+06:21:13.975 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+06:21:19.041 [main] INFO  utils.resources.BaseClass - Get price value of the product
+06:21:19.071 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+06:21:19.072 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+06:21:19.072 [main] INFO  utils.resources.BaseClass - Price format check successful
+06:21:19.072 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+06:21:19.102 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+06:21:21.432 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+06:21:26.479 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+06:21:26.523 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+06:21:26.566 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+06:21:26.594 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+06:21:26.619 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+06:21:26.645 [main] INFO  utils.resources.BaseClass - Click proceed to checkout button
+06:21:30.021 [main] INFO  utils.resources.BaseClass - Sign in to review cart
+06:24:18.137 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:24:18.139 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:24:18.200 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:24:18.201 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:24:18.201 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:24:18.201 [main] INFO  utils.resources.BaseClass - Input file path:null
+06:27:36.433 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:27:36.435 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:27:36.435 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:27:36.435 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:27:36.435 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:27:36.436 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:27:38.934 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:27:38.934 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:27:40.073 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:27:40.079 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:27:40.079 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:27:40.079 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:27:40.254 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:27:40.254 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:27:40.254 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:27:40.254 [main] INFO  utils.resources.BaseClass - Input file path:D:\data.xlsx
+06:27:40.254 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:27:40.544 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:27:40.545 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:27:40.545 [main] INFO  utils.resources.BaseClass - Row Count:1
+06:27:40.549 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:1
+06:27:40.549 [main] INFO  utils.resources.BaseClass - No. of entries in input file:1
+06:27:40.549 [main] INFO  utils.resources.BaseClass - Returning result
+06:27:40.558 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:27:40.561 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:27:40.564 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:27:40.564 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:27:40.565 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:27:40.565 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:27:44.737 [main] INFO  utils.resources.BaseClass - Send search term:Sony tv to the website
+06:27:44.737 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:27:44.908 [main] INFO  utils.resources.BaseClass - Click on search button
+06:27:47.003 [main] INFO  utils.resources.BaseClass - Split the search term
+06:27:47.003 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:27:47.055 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:27:47.214 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:27:47.214 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:27:47.273 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:27:47.273 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:27:47.332 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:27:47.332 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:27:47.498 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:27:47.498 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:27:47.586 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:27:47.586 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:27:47.641 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:27:47.641 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:27:49.243 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+06:27:49.641 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+06:27:49.641 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:39
+06:27:49.641 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+06:27:49.772 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+06:27:49.784 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+06:27:52.226 [main] INFO  utils.resources.BaseClass - Get Item condition text
+06:27:52.353 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+06:27:52.353 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+06:27:52.353 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+06:27:57.411 [main] INFO  utils.resources.BaseClass - Get price value of the product
+06:27:57.441 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+06:27:57.441 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+06:27:57.441 [main] INFO  utils.resources.BaseClass - Price format check successful
+06:27:57.441 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+06:27:57.472 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+06:27:59.651 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+06:28:04.693 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+06:28:04.732 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+06:28:04.774 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+06:28:04.800 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+06:28:04.829 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+06:28:04.856 [main] INFO  utils.resources.BaseClass - Click proceed to checkout button
+06:28:10.022 [main] INFO  utils.resources.BaseClass - Sign in to review cart
+06:31:11.437 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:31:11.439 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:31:11.439 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:31:11.439 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:31:11.439 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:31:11.440 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:31:13.976 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:31:13.976 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:31:15.116 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:31:15.131 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:31:15.132 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:31:15.133 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:31:15.343 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:31:15.344 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:31:15.344 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:31:15.344 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+06:31:15.344 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:31:15.631 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:31:15.632 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:31:15.632 [main] INFO  utils.resources.BaseClass - Row Count:2
+06:31:15.636 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:2
+06:31:15.636 [main] INFO  utils.resources.BaseClass - No. of entries in input file:2
+06:31:15.636 [main] INFO  utils.resources.BaseClass - Returning result
+06:31:15.647 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:31:15.649 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:31:15.651 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:31:15.652 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:31:15.652 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:31:15.653 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:31:18.891 [main] INFO  utils.resources.BaseClass - Send search term:Sony tv to the website
+06:31:18.892 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:31:19.164 [main] INFO  utils.resources.BaseClass - Click on search button
+06:31:21.078 [main] INFO  utils.resources.BaseClass - Split the search term
+06:31:21.078 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:31:21.128 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:31:21.306 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:31:21.307 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:31:21.345 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:31:21.345 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:31:21.402 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:31:21.403 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:31:21.535 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:31:21.536 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:31:21.641 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:31:21.641 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:31:21.789 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:31:21.789 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:31:23.722 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+06:31:23.996 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+06:31:23.996 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:4
+06:31:23.996 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+06:31:24.222 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+06:31:24.261 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+06:31:27.195 [main] INFO  utils.resources.BaseClass - Get Item condition text
+06:31:27.377 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+06:31:27.377 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+06:31:27.377 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+06:31:32.465 [main] INFO  utils.resources.BaseClass - Get price value of the product
+06:31:32.498 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+06:31:32.498 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+06:31:32.499 [main] INFO  utils.resources.BaseClass - Price format check successful
+06:31:32.499 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+06:31:32.530 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+06:31:34.743 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+06:31:39.797 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+06:31:39.852 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+06:31:39.894 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+06:31:39.918 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+06:31:39.945 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+06:31:39.973 [main] INFO  utils.resources.BaseClass - Click proceed to checkout button
+06:31:44.193 [main] INFO  utils.resources.BaseClass - Sign in to review cart
+06:31:58.045 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:31:58.045 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:31:58.045 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:31:58.045 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:31:58.045 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:32:00.069 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:32:00.069 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:32:01.196 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:32:01.210 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:32:01.211 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:32:01.211 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:32:01.211 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:32:01.211 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:32:01.212 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:32:01.212 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:32:04.685 [main] INFO  utils.resources.BaseClass - Send search term:Samsung tv to the website
+06:32:04.686 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:32:05.208 [main] INFO  utils.resources.BaseClass - Click on search button
+06:32:07.159 [main] INFO  utils.resources.BaseClass - Split the search term
+06:32:07.159 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:32:07.234 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:32:07.276 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:32:07.276 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:32:07.345 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:32:07.345 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:32:07.413 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:32:07.413 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:32:07.478 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:32:07.478 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:32:07.524 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:32:07.524 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:32:09.210 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+06:32:09.263 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+06:32:09.263 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:32
+06:32:09.263 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+06:32:09.316 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+06:32:09.327 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+06:32:12.105 [main] INFO  utils.resources.BaseClass - Get Item condition text
+06:32:12.236 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+06:32:12.236 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+06:32:12.236 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+06:32:17.274 [main] INFO  utils.resources.BaseClass - Get price value of the product
+06:32:17.306 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+06:32:17.306 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+06:32:17.307 [main] INFO  utils.resources.BaseClass - Price format check successful
+06:32:17.307 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+06:32:17.334 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+06:32:19.375 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+06:32:24.406 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+06:32:24.447 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+06:32:24.489 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+06:32:24.521 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+06:32:24.545 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+06:33:40.326 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:33:40.328 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:33:40.328 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:33:40.328 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:33:40.328 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:33:40.330 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:33:42.782 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:33:42.782 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:33:43.919 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:33:43.925 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:33:43.925 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:33:43.925 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:33:44.103 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:33:44.104 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:33:44.104 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:33:44.104 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+06:33:44.104 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:33:44.388 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:33:44.389 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:33:44.389 [main] INFO  utils.resources.BaseClass - Row Count:2
+06:33:44.393 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:2
+06:33:44.393 [main] INFO  utils.resources.BaseClass - No. of entries in input file:2
+06:33:44.393 [main] INFO  utils.resources.BaseClass - Returning result
+06:33:44.400 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:33:44.402 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:33:44.402 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:33:44.402 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:33:44.403 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:33:44.403 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:33:47.638 [main] INFO  utils.resources.BaseClass - Send search term:Sony tv to the website
+06:33:47.638 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:33:48.138 [main] INFO  utils.resources.BaseClass - Click on search button
+06:33:50.350 [main] INFO  utils.resources.BaseClass - Split the search term
+06:33:50.350 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:33:50.400 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:33:50.494 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:33:50.495 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:33:50.557 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:33:50.557 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:33:50.595 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:33:50.595 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:33:50.653 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:33:50.653 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:33:50.729 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:33:50.730 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:33:50.853 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:33:50.853 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:33:52.963 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+06:33:53.139 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+06:33:53.139 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:47
+06:33:53.139 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+06:33:53.381 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+06:33:53.411 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+06:33:55.918 [main] INFO  utils.resources.BaseClass - Get Item condition text
+06:33:56.013 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+06:33:56.013 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+06:33:56.013 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+06:34:01.102 [main] INFO  utils.resources.BaseClass - Get price value of the product
+06:34:01.128 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+06:34:01.128 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+06:34:01.129 [main] INFO  utils.resources.BaseClass - Price format check successful
+06:34:01.129 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+06:34:01.155 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+06:34:03.572 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+06:34:08.594 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+06:34:08.637 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+06:34:08.729 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+06:34:08.767 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+06:34:08.817 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+06:34:08.890 [main] INFO  utils.resources.BaseClass - Click proceed to checkout button
+06:34:12.455 [main] INFO  utils.resources.BaseClass - Sign in to review cart
+06:34:27.383 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:34:27.384 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:34:27.384 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:34:27.384 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:34:27.384 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:34:29.273 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:34:29.273 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:34:30.404 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:34:30.410 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:34:30.412 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:34:30.412 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:34:30.413 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:34:30.413 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:34:30.413 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:34:30.413 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:34:34.037 [main] INFO  utils.resources.BaseClass - Send search term:Samsung tv to the website
+06:34:34.038 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:34:34.537 [main] INFO  utils.resources.BaseClass - Click on search button
+06:34:39.911 [main] INFO  utils.resources.BaseClass - Split the search term
+06:34:39.911 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:34:39.989 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:34:40.020 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:34:40.020 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:34:40.055 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:34:40.055 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:34:40.090 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:34:40.090 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:34:40.128 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:34:40.128 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:34:40.162 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:34:40.162 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:34:41.741 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+06:34:41.952 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+06:34:41.953 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:5
+06:34:41.953 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+06:34:42.063 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+06:34:42.124 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+06:34:48.971 [main] INFO  utils.resources.BaseClass - Get Item condition text
+06:34:49.054 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+06:34:49.055 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+06:34:49.055 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+06:34:54.157 [main] INFO  utils.resources.BaseClass - Get price value of the product
+06:34:54.207 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+06:34:54.207 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+06:34:54.208 [main] INFO  utils.resources.BaseClass - Price format check successful
+06:34:54.208 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+06:34:54.233 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+06:34:57.384 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+06:35:02.433 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+06:35:02.458 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+06:35:02.511 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+06:36:14.359 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:36:14.361 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:36:14.361 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:36:14.361 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:36:14.361 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:36:14.364 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:36:16.796 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:36:16.796 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:36:17.940 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:36:17.954 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:36:17.954 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:36:17.955 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:36:18.142 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:36:18.142 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:36:18.142 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:36:18.142 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+06:36:18.142 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:36:18.461 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:36:18.463 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:36:18.463 [main] INFO  utils.resources.BaseClass - Row Count:2
+06:36:18.467 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:2
+06:36:18.467 [main] INFO  utils.resources.BaseClass - No. of entries in input file:2
+06:36:18.467 [main] INFO  utils.resources.BaseClass - Returning result
+06:36:18.475 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:36:18.477 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:36:18.477 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:36:18.477 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:36:18.478 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:36:18.478 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:36:21.786 [main] INFO  utils.resources.BaseClass - Send search term:Sony tv to the website
+06:36:21.786 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:36:21.999 [main] INFO  utils.resources.BaseClass - Click on search button
+06:36:26.472 [main] INFO  utils.resources.BaseClass - Split the search term
+06:36:26.472 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:36:26.544 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:36:26.574 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:36:26.574 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:36:26.604 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:36:26.604 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:36:26.636 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:36:26.636 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:36:26.669 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:36:26.669 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:36:26.701 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:36:26.702 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:36:26.731 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:36:26.731 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:36:28.464 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+06:36:28.642 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+06:36:28.643 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:10
+06:36:28.643 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+06:36:28.755 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+06:36:28.795 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+06:36:32.034 [main] INFO  utils.resources.BaseClass - Get Item condition text
+06:36:32.460 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+06:36:32.460 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+06:36:32.460 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+06:36:37.532 [main] INFO  utils.resources.BaseClass - Get price value of the product
+06:36:37.561 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+06:36:37.561 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+06:36:37.562 [main] INFO  utils.resources.BaseClass - Price format check successful
+06:36:37.562 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+06:36:37.589 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+06:36:39.814 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+06:36:44.891 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+06:36:44.924 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+06:36:44.955 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+06:36:44.986 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+06:36:45.031 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+06:36:45.095 [main] INFO  utils.resources.BaseClass - Click proceed to checkout button
+06:36:49.574 [main] INFO  utils.resources.BaseClass - Sign in to review cart
+06:37:04.922 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:37:04.923 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:37:04.924 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:37:04.924 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:37:04.925 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:37:06.841 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:37:06.841 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:37:07.981 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:37:07.995 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:37:07.996 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:37:07.997 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:37:07.998 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:37:07.999 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:37:07.999 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:37:07.999 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:37:11.599 [main] INFO  utils.resources.BaseClass - Send search term:Samsung tv to the website
+06:37:11.599 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:37:12.008 [main] INFO  utils.resources.BaseClass - Click on search button
+06:37:17.025 [main] INFO  utils.resources.BaseClass - Split the search term
+06:37:17.025 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:37:17.098 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:37:17.122 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:37:17.123 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:37:17.157 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:37:17.158 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:37:17.190 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:37:17.190 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:37:17.220 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:37:17.220 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:37:17.249 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:37:17.249 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:37:20.056 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+06:37:20.121 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+06:37:20.121 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:45
+06:37:20.121 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+06:37:20.169 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+06:37:20.180 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+06:37:22.497 [main] INFO  utils.resources.BaseClass - Get Item condition text
+06:37:22.623 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+06:37:22.623 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+06:37:22.623 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+06:37:27.681 [main] INFO  utils.resources.BaseClass - Get price value of the product
+06:37:27.708 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+06:37:27.708 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+06:37:27.709 [main] INFO  utils.resources.BaseClass - Price format check successful
+06:37:27.709 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+06:37:27.735 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+06:37:30.565 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+06:37:35.634 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+06:37:35.665 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+06:37:35.690 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+06:37:35.714 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+06:37:35.740 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+06:37:35.764 [main] INFO  utils.resources.BaseClass - Click proceed to checkout button
+06:37:40.302 [main] INFO  utils.resources.BaseClass - Sign in to review cart
+06:38:43.874 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:38:43.876 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:38:43.877 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:38:43.877 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:38:43.877 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:38:43.878 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:38:46.613 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:38:46.614 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:38:47.750 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:38:47.765 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:38:47.766 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:38:47.766 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:38:47.993 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:38:47.993 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:38:47.993 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:38:47.993 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+06:38:47.993 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:38:48.537 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:38:48.538 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:38:48.538 [main] INFO  utils.resources.BaseClass - Row Count:2
+06:38:48.544 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:2
+06:38:48.544 [main] INFO  utils.resources.BaseClass - No. of entries in input file:2
+06:38:48.544 [main] INFO  utils.resources.BaseClass - Returning result
+06:38:48.553 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:38:48.555 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:38:48.555 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:38:48.555 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:38:48.556 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:38:48.556 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:38:51.747 [main] INFO  utils.resources.BaseClass - Send search term:Sony tv to the website
+06:38:51.747 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:38:51.826 [main] INFO  utils.resources.BaseClass - Click on search button
+06:38:58.771 [main] INFO  utils.resources.BaseClass - Split the search term
+06:38:58.772 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:38:58.804 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:38:58.834 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:38:58.834 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:38:58.867 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:38:58.867 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:38:58.899 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:38:58.899 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:38:58.932 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:38:58.933 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:38:59.039 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:38:59.040 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:38:59.073 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:38:59.073 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:39:05.769 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+06:39:05.798 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+06:39:05.799 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:10
+06:39:05.799 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+06:39:05.842 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+06:39:05.855 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+06:39:12.333 [main] INFO  utils.resources.BaseClass - Get Item condition text
+06:39:12.370 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+06:39:12.370 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+06:39:12.370 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+06:39:17.436 [main] INFO  utils.resources.BaseClass - Get price value of the product
+06:39:17.462 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+06:39:17.462 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+06:39:17.463 [main] INFO  utils.resources.BaseClass - Price format check successful
+06:39:17.463 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+06:39:17.491 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+06:39:25.182 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+06:39:30.220 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+06:39:30.258 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+06:39:30.284 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+06:39:30.312 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+06:39:30.340 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+06:39:30.366 [main] INFO  utils.resources.BaseClass - Click proceed to checkout button
+06:39:40.497 [main] INFO  utils.resources.BaseClass - Sign in to review cart
+06:40:07.293 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:40:07.293 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:40:07.293 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:40:07.293 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:40:07.293 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:40:09.179 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:40:09.179 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:40:10.305 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:40:10.317 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:40:10.318 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:40:10.318 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:40:10.318 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:40:10.318 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:40:10.318 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:40:10.318 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:40:13.728 [main] INFO  utils.resources.BaseClass - Send search term:Samsung tv to the website
+06:40:13.728 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:40:13.926 [main] INFO  utils.resources.BaseClass - Click on search button
+06:40:16.094 [main] INFO  utils.resources.BaseClass - Split the search term
+06:40:16.094 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:40:16.141 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:40:16.180 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:40:16.180 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:40:16.223 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:40:16.224 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:40:16.259 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:40:16.259 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:40:16.297 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:40:16.297 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:40:16.334 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:40:16.334 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:40:17.889 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+06:40:17.929 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+06:40:17.930 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:37
+06:40:17.930 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+06:40:18.036 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+06:40:18.066 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+06:40:18.220 [main] INFO  utils.resources.BaseClass - Get Item condition text
+06:41:58.620 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:41:58.623 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:41:58.623 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:41:58.623 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:41:58.623 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:41:58.626 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:42:01.132 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:42:01.133 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:42:02.280 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:42:02.296 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:42:02.297 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:42:02.298 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:42:02.493 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:42:02.494 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:42:02.494 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:42:02.494 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+06:42:02.494 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:42:02.857 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:42:02.859 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:42:02.859 [main] INFO  utils.resources.BaseClass - Row Count:2
+06:42:02.864 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:2
+06:42:02.864 [main] INFO  utils.resources.BaseClass - No. of entries in input file:2
+06:42:02.864 [main] INFO  utils.resources.BaseClass - Returning result
+06:42:02.872 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:42:02.875 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:42:02.876 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:42:02.876 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:42:02.876 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:42:02.877 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:42:06.701 [main] INFO  utils.resources.BaseClass - Send search term:Sony tv to the website
+06:42:06.701 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:42:07.060 [main] INFO  utils.resources.BaseClass - Click on search button
+06:42:11.682 [main] INFO  utils.resources.BaseClass - Split the search term
+06:42:11.683 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:42:11.759 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:42:11.788 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:42:11.789 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:42:11.824 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:42:11.824 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:42:11.865 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:42:11.865 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:42:11.904 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:42:11.905 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:42:11.952 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:42:11.952 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:42:12.003 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:42:12.003 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:42:13.831 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+06:42:14.029 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+06:42:14.030 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:11
+06:42:14.030 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+06:42:14.121 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+06:42:14.184 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+06:42:16.379 [main] INFO  utils.resources.BaseClass - Get Item condition text
+06:42:16.508 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+06:42:16.509 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+06:42:16.509 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+06:42:21.559 [main] INFO  utils.resources.BaseClass - Get price value of the product
+06:42:21.584 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+06:42:21.584 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+06:42:21.584 [main] INFO  utils.resources.BaseClass - Price format check successful
+06:42:21.584 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+06:42:21.613 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+06:42:23.741 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+06:42:28.778 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+06:42:28.812 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+06:42:28.837 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+06:42:28.864 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+06:42:28.891 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+06:42:28.919 [main] INFO  utils.resources.BaseClass - Click proceed to checkout button
+06:42:32.981 [main] INFO  utils.resources.BaseClass - Sign in to review cart
+06:42:44.000 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:42:44.002 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:42:44.003 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:42:44.003 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:42:44.003 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:42:45.915 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:42:45.915 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:42:47.072 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:42:47.075 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:42:47.075 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:42:47.075 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:42:47.075 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:42:47.075 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:42:47.075 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:42:47.075 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:42:50.384 [main] INFO  utils.resources.BaseClass - Send search term:Samsung tv to the website
+06:42:50.385 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:42:50.574 [main] INFO  utils.resources.BaseClass - Click on search button
+06:42:52.872 [main] INFO  utils.resources.BaseClass - Split the search term
+06:42:52.872 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:42:52.908 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:42:53.002 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:42:53.002 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:42:53.049 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:42:53.049 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:42:53.081 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:42:53.081 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:42:53.114 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:42:53.114 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:42:53.146 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:42:53.146 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:42:54.798 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+06:42:54.912 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+06:42:54.912 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:45
+06:42:54.912 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+06:42:54.962 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+06:42:54.975 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+06:42:56.487 [main] INFO  utils.resources.BaseClass - Get Item condition text
+06:42:56.598 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+06:42:56.598 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+06:42:56.598 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+06:43:01.616 [main] INFO  utils.resources.BaseClass - Get price value of the product
+06:43:01.647 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+06:43:01.647 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+06:43:01.648 [main] INFO  utils.resources.BaseClass - Price format check successful
+06:43:01.648 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+06:43:01.676 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+06:43:03.906 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+06:43:08.970 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+06:43:08.998 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+06:43:09.026 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+06:43:09.054 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+06:43:09.081 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+06:43:09.108 [main] INFO  utils.resources.BaseClass - Click proceed to checkout button
+06:43:12.944 [main] INFO  utils.resources.BaseClass - Sign in to review cart
+06:44:33.773 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+06:44:33.776 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:44:33.776 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:44:33.776 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:44:33.776 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:44:33.778 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:44:36.333 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:44:36.333 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:44:37.497 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:44:37.505 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:44:37.505 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+06:44:37.505 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+06:44:37.676 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+06:44:37.677 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+06:44:37.677 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+06:44:37.677 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+06:44:37.677 [main] INFO  utils.resources.BaseClass - Create Workbook object
+06:44:37.994 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+06:44:37.995 [main] INFO  utils.resources.BaseClass - Get no. of rows
+06:44:37.995 [main] INFO  utils.resources.BaseClass - Row Count:2
+06:44:38.000 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:2
+06:44:38.000 [main] INFO  utils.resources.BaseClass - No. of entries in input file:2
+06:44:38.000 [main] INFO  utils.resources.BaseClass - Returning result
+06:44:38.007 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:44:38.009 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:44:38.009 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:44:38.010 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:44:38.010 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:44:38.010 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:44:41.368 [main] INFO  utils.resources.BaseClass - Send search term:Sony tv to the website
+06:44:41.369 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:44:41.685 [main] INFO  utils.resources.BaseClass - Click on search button
+06:44:43.884 [main] INFO  utils.resources.BaseClass - Split the search term
+06:44:43.884 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:44:43.943 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:44:44.071 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:44:44.071 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:44:44.110 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:44:44.110 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:44:44.142 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:44:44.142 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:44:44.235 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:44:44.235 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:44:44.290 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:44:44.290 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:44:44.410 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:44:44.410 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:44:46.033 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+06:44:46.203 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+06:44:46.203 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:26
+06:44:46.203 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+06:44:46.274 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+06:44:46.316 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+06:44:46.580 [main] INFO  utils.resources.BaseClass - Get Item condition text
+06:44:54.724 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+06:44:54.725 [main] INFO  utils.resources.BaseClass - Get property value of browser
+06:44:54.726 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+06:44:54.726 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+06:44:54.726 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+06:44:56.619 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+06:44:56.619 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+06:44:57.810 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+06:44:57.822 [main] INFO  utils.resources.BaseClass - Returning driver object
+06:44:57.822 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+06:44:57.822 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+06:44:57.822 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+06:44:57.823 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+06:44:57.823 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+06:44:57.823 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+06:45:01.841 [main] INFO  utils.resources.BaseClass - Send search term:Samsung tv to the website
+06:45:01.841 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+06:45:02.077 [main] INFO  utils.resources.BaseClass - Click on search button
+06:45:04.416 [main] INFO  utils.resources.BaseClass - Split the search term
+06:45:04.416 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+06:45:04.462 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+06:45:04.507 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+06:45:04.507 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:45:04.540 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:45:04.541 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:45:04.575 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:45:04.575 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:45:04.717 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:45:04.717 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+06:45:04.775 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+06:45:04.775 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+06:45:06.478 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+07:06:00.389 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+07:06:00.392 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+07:06:00.392 [main] INFO  utils.resources.BaseClass - Get property value of browser
+07:06:00.392 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+07:06:00.392 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+07:06:00.394 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+07:06:03.875 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+07:06:03.875 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+07:06:05.008 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+07:06:05.012 [main] INFO  utils.resources.BaseClass - Returning driver object
+07:06:05.012 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+07:06:05.012 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+07:06:05.206 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+07:06:05.207 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+07:06:05.207 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+07:06:05.207 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+07:06:05.207 [main] INFO  utils.resources.BaseClass - Create Workbook object
+07:06:05.535 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+07:06:05.537 [main] INFO  utils.resources.BaseClass - Get no. of rows
+07:06:05.537 [main] INFO  utils.resources.BaseClass - Row Count:2
+07:06:05.541 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:2
+07:06:05.541 [main] INFO  utils.resources.BaseClass - No. of entries in input file:2
+07:06:05.541 [main] INFO  utils.resources.BaseClass - Returning result
+07:06:05.550 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+07:06:05.552 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+07:06:05.552 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+07:06:05.553 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+07:06:05.553 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+07:06:05.553 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+07:06:09.184 [main] INFO  utils.resources.BaseClass - Send search term:Sony tv to the website
+07:06:09.184 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+07:06:09.341 [main] INFO  utils.resources.BaseClass - Click on search button
+07:06:11.787 [main] INFO  utils.resources.BaseClass - Split the search term
+07:06:11.787 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+07:06:12.264 [main] INFO  utils.resources.BaseClass - Loop throught the list of product displayed
+07:06:12.265 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:12.500 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:12.501 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:12.501 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:12.501 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:12.501 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:12.501 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:12.563 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:12.563 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:12.563 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:12.563 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:12.563 [main] INFO  utils.resources.BaseClass - If search term is not present, set boolean variable as false and exit the loop
+07:06:12.563 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:16.437 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+07:06:16.438 [main] INFO  utils.resources.BaseClass - Get property value of browser
+07:06:16.439 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+07:06:16.439 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+07:06:16.439 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+07:06:18.630 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+07:06:18.630 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+07:06:19.761 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+07:06:19.772 [main] INFO  utils.resources.BaseClass - Returning driver object
+07:06:19.772 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+07:06:19.772 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+07:06:19.772 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+07:06:19.772 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+07:06:19.772 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+07:06:19.772 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+07:06:23.012 [main] INFO  utils.resources.BaseClass - Send search term:Samsung tv to the website
+07:06:23.013 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+07:06:23.505 [main] INFO  utils.resources.BaseClass - Click on search button
+07:06:28.036 [main] INFO  utils.resources.BaseClass - Split the search term
+07:06:28.036 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+07:06:28.075 [main] INFO  utils.resources.BaseClass - Loop throught the list of product displayed
+07:06:28.075 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.146 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.146 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.146 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.146 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.146 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.146 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.189 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.189 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.189 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.189 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.189 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.189 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.220 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.220 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.220 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.220 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.220 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.220 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.253 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.253 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.253 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.253 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.253 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.253 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.283 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.283 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.283 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.283 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.283 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.283 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.326 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.326 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.326 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.326 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.326 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.326 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.361 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.361 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.361 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.361 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.361 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.361 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.396 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.396 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.396 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.396 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.397 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.397 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.431 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.431 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.431 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.431 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.431 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.431 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.464 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.465 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.465 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.465 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.465 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.465 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.498 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.498 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.498 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.498 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.499 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.499 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.533 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.533 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.533 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.533 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.533 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.533 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.564 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.564 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.565 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.565 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.565 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.565 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.595 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.595 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.595 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.595 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.595 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.595 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.627 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.627 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.627 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.627 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.627 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.627 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.664 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.664 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.664 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.664 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.664 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.664 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.694 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.694 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.694 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.694 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.694 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.695 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.725 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.725 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.725 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.725 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.725 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.725 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.756 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.756 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.756 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.756 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.756 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.756 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.789 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.789 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.789 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.789 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.789 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.789 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.821 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.821 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.821 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.821 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.822 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.822 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.854 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.854 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.854 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.854 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.854 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.854 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.888 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.888 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.888 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.888 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.888 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.889 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.918 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.918 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.918 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.918 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.919 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.919 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.952 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.952 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.952 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.952 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.952 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.952 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:28.987 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:28.987 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:28.987 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.987 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:28.987 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:28.987 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.019 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.019 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.019 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.021 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.021 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.021 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.055 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.055 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.055 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.055 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.056 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.056 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.091 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.091 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.091 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.091 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.091 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.091 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.127 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.127 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.127 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.127 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.127 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.127 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.168 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.168 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.168 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.168 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.168 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.168 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.199 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.199 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.199 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.199 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.199 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.199 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.242 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.242 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.242 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.242 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.243 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.243 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.273 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.273 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.273 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.273 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.273 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.273 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.302 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.302 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.302 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.302 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.302 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.302 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.332 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.332 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.332 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.332 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.332 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.332 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.363 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.364 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.364 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.364 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.364 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.364 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.401 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.401 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.401 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.401 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.401 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.401 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.433 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.433 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.433 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.433 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.433 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.433 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.470 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.470 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.470 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.470 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.470 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.470 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.501 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.501 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.501 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.501 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.501 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.501 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.530 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.530 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.530 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.530 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.530 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.530 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.562 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.562 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.562 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.562 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.562 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.562 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.591 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.591 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.591 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.591 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.591 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.591 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.621 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.621 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.621 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.621 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.621 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.621 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.652 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.652 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.652 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.652 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.652 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.652 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.683 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.683 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.683 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.683 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.683 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.683 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.714 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.714 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.714 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.714 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.714 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.714 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.744 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.744 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.744 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.744 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.744 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.744 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.776 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.776 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.776 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.777 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.777 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.777 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.806 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.806 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.806 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.806 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.806 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.806 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.835 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.835 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.835 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.835 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.835 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:06:29.835 [main] INFO  utils.resources.BaseClass - Get the text of the list displayed
+07:06:29.865 [main] INFO  utils.resources.BaseClass - Inititlize boolean variable as true
+07:06:29.865 [main] INFO  utils.resources.BaseClass - Loop through the search term
+07:06:29.865 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.865 [main] INFO  utils.resources.BaseClass - Check if the search term is present in list text
+07:06:29.865 [main] INFO  utils.resources.BaseClass - If search term is not present, set boolean variable as false and exit the loop
+07:06:29.866 [main] INFO  utils.resources.BaseClass - Assert true/false based on boolean variable
+07:09:44.966 [main] INFO  utils.resources.BaseClass - Calling Initialize driver before test in LandingPageTest class
+07:09:44.969 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+07:09:44.969 [main] INFO  utils.resources.BaseClass - Get property value of browser
+07:09:44.969 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+07:09:44.969 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+07:09:44.971 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+07:09:47.514 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+07:09:47.514 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+07:09:48.648 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+07:09:48.665 [main] INFO  utils.resources.BaseClass - Returning driver object
+07:09:48.666 [main] INFO  utils.resources.BaseClass - Driver initialized successfully
+07:09:48.666 [main] INFO  utils.resources.BaseClass - Assign Javascript Executor
+07:09:48.945 [main] INFO  utils.resources.BaseClass - Start @DataProvider
+07:09:48.946 [main] INFO  utils.resources.BaseClass - Call GetData method in DPC class to read excel file
+07:09:48.946 [main] INFO  utils.resources.BaseClass - Get property value of inputfile
+07:09:48.946 [main] INFO  utils.resources.BaseClass - Input file path:C:\workspace\Assignment\data.xlsx
+07:09:48.946 [main] INFO  utils.resources.BaseClass - Create Workbook object
+07:09:49.283 [main] INFO  utils.resources.BaseClass - Create sheet objcet
+07:09:49.284 [main] INFO  utils.resources.BaseClass - Get no. of rows
+07:09:49.284 [main] INFO  utils.resources.BaseClass - Row Count:2
+07:09:49.288 [main] INFO  utils.resources.BaseClass - No. of entries in file in DPC class:2
+07:09:49.289 [main] INFO  utils.resources.BaseClass - No. of entries in input file:2
+07:09:49.289 [main] INFO  utils.resources.BaseClass - Returning result
+07:09:49.296 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+07:09:49.299 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+07:09:49.299 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+07:09:49.300 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+07:09:49.300 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+07:09:49.300 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+07:09:52.394 [main] INFO  utils.resources.BaseClass - Send search term:Sony tv to the website
+07:09:52.395 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+07:09:52.677 [main] INFO  utils.resources.BaseClass - Click on search button
+07:09:54.701 [main] INFO  utils.resources.BaseClass - Split the search term
+07:09:54.701 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+07:09:54.754 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+07:09:54.867 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+07:09:54.867 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+07:09:54.919 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+07:09:54.919 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+07:09:54.977 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+07:09:54.977 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+07:09:55.088 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+07:09:55.088 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+07:09:55.203 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+07:09:55.203 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+07:09:55.280 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+07:09:55.281 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+07:09:56.995 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+07:09:57.168 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+07:09:57.169 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:35
+07:09:57.169 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+07:09:57.347 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+07:09:57.423 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+07:10:00.092 [main] INFO  utils.resources.BaseClass - Get Item condition text
+07:10:00.137 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+07:10:00.137 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+07:10:00.137 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+07:10:05.180 [main] INFO  utils.resources.BaseClass - Get price value of the product
+07:10:05.209 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+07:10:05.209 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+07:10:05.210 [main] INFO  utils.resources.BaseClass - Price format check successful
+07:10:05.210 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+07:10:05.235 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+07:10:07.378 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+07:10:12.447 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+07:10:12.494 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+07:10:12.521 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+07:10:12.548 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+07:10:12.575 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+07:10:12.599 [main] INFO  utils.resources.BaseClass - Click proceed to checkout button
+07:10:15.733 [main] INFO  utils.resources.BaseClass - Sign in to review cart
+07:10:28.524 [main] INFO  utils.resources.BaseClass - Assign properties file to prop
+07:10:28.527 [main] INFO  utils.resources.BaseClass - Get property value of browser
+07:10:28.528 [main] INFO  utils.resources.BaseClass - Browser property value:chrome
+07:10:28.529 [main] INFO  utils.resources.BaseClass - Assert if browser value is maintained
+07:10:28.529 [main] INFO  utils.resources.BaseClass - Creating chrome driver
+07:10:30.433 [main] INFO  utils.resources.BaseClass - Chrome Driver created successfully
+07:10:30.433 [main] INFO  utils.resources.BaseClass - Maximizing driver window
+07:10:31.584 [main] INFO  utils.resources.BaseClass - Checking if implicit wait property is available
+07:10:31.595 [main] INFO  utils.resources.BaseClass - Returning driver object
+07:10:31.596 [main] INFO  utils.resources.BaseClass - Create object for landing page class
+07:10:31.597 [main] INFO  utils.resources.BaseClass - Create object for DisplayList Page class
+07:10:31.597 [main] INFO  utils.resources.BaseClass - Create object for Display product details page class
+07:10:31.597 [main] INFO  utils.resources.BaseClass - Create object for CheckOutPage class
+07:10:31.598 [main] INFO  utils.resources.BaseClass - Create object for EbayLoginPage class
+07:10:31.598 [main] INFO  utils.resources.BaseClass - Call URL from properties file
+07:10:34.874 [main] INFO  utils.resources.BaseClass - Send search term:Samsung tv to the website
+07:10:34.874 [main] INFO  utils.resources.BaseClass - Assert if search term is not empty
+07:10:35.343 [main] INFO  utils.resources.BaseClass - Click on search button
+07:10:37.441 [main] INFO  utils.resources.BaseClass - Split the search term
+07:10:37.442 [main] INFO  utils.resources.BaseClass - Get the size of the product list displayed
+07:10:37.574 [main] INFO  utils.resources.BaseClass - Get the list of screen sizes displayed
+07:10:37.625 [main] INFO  utils.resources.BaseClass - Loop through the list and find 50"-60"
+07:10:37.625 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+07:10:37.692 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+07:10:37.692 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+07:10:37.835 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+07:10:37.835 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+07:10:38.008 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+07:10:38.008 [main] INFO  utils.resources.BaseClass - Assign the list tag to we object
+07:10:38.085 [main] INFO  utils.resources.BaseClass - Compare if screen size text
+07:10:38.085 [main] INFO  utils.resources.BaseClass - If found, click and break the loop
+07:10:39.795 [main] INFO  utils.resources.BaseClass - Check if filter criteria applied for selected screen size
+07:10:39.940 [main] INFO  utils.resources.BaseClass - Get a random number to click in the displayed list
+07:10:39.941 [main] INFO  utils.resources.BaseClass - Randomly selected listnumber:13
+07:10:39.941 [main] INFO  utils.resources.BaseClass - Assign the random list to webelement
+07:10:40.247 [main] INFO  utils.resources.BaseClass - Check if the web element is diplayed. If not scroll down the page
+07:10:40.300 [main] INFO  utils.resources.BaseClass - If element found, click and break the loop
+07:10:44.268 [main] INFO  utils.resources.BaseClass - Get Item condition text
+07:10:44.359 [main] INFO  utils.resources.BaseClass - Assert if item condition text is not empty
+07:10:44.359 [main] INFO  utils.resources.BaseClass - Item condition text is not empty
+07:10:44.359 [main] INFO  utils.resources.BaseClass - Check if Time Left field is displayed
+07:10:49.422 [main] INFO  utils.resources.BaseClass - Get price value of the product
+07:10:49.446 [main] INFO  utils.resources.BaseClass - Get price value without currency key
+07:10:49.446 [main] INFO  utils.resources.BaseClass - Assert if price matches format
+07:10:49.448 [main] INFO  utils.resources.BaseClass - Price format check successful
+07:10:49.448 [main] INFO  utils.resources.BaseClass - Assign product name, price and seller information to objects
+07:10:49.474 [main] INFO  utils.resources.BaseClass - Click Add to cart button
+07:10:51.826 [main] INFO  utils.resources.BaseClass - Switch to frame window if a pop up appears
+07:10:56.854 [main] INFO  utils.resources.BaseClass - Assert is shopping cart page is displayed
+07:10:56.916 [main] INFO  utils.resources.BaseClass - Assert if product name is same in check out page
+07:10:56.975 [main] INFO  utils.resources.BaseClass - Assert if price is same in check out page
+07:10:57.075 [main] INFO  utils.resources.BaseClass - Assert Seller name is same in check out page
+07:10:57.240 [main] INFO  utils.resources.BaseClass - Assert if total price in check outp page is equal to single unit price
+07:10:57.311 [main] INFO  utils.resources.BaseClass - Click proceed to checkout button
+07:11:02.462 [main] INFO  utils.resources.BaseClass - Sign in to review cart

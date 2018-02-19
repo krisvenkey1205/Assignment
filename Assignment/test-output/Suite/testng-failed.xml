@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="tests.TS01_LandingPageTest">
+        <methods>
+          <include name="loadPage" invocation-numbers="0"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- tests.TS01_LandingPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
